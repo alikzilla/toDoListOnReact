@@ -1,7 +1,11 @@
 import './Header.css'
+import Logo from '../Logo/Logo'
 
 export default function Header() {
   return (
-    <header>To-Do App</header>
+    <header>
+      <Logo />
+      <p>To-Do App</p>
+    </header>
   )
 }
